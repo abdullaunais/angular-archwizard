@@ -1,0 +1,83 @@
+{
+  "name": "angular-archwizard",
+  "version": "4.0.0-develop",
+  "license": "MIT",
+  "description": "An angular 5+ module containing a wizard component and its supporting components and directives",
+  "homepage": "https://github.com/madoar/angular-archwizard",
+  "author": {
+    "name": "Marc Arndt",
+    "email": "marc.arndt@masimi.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madoar/angular-archwizard"
+  },
+  "bugs": {
+    "url": "https://github.com/madoar/angular-archwizard/issues"
+  },
+  "keywords": [
+    "angular",
+    "angular5",
+    "angular6",
+    "angular 5",
+    "angular 6",
+    "ng5",
+    "ng6",
+    "ngx",
+    "typescript",
+    "wizard",
+    "component"
+  ],
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular-devkit/build-ng-packagr": "~0.8.0",
+    "@angular/cli": "~6.2.3",
+    "@angular/common": "^6.1.0",
+    "@angular/compiler": "^6.1.0",
+    "@angular/compiler-cli": "^6.1.0",
+    "@angular/core": "^6.1.0",
+    "@angular/forms": "^6.1.0",
+    "@angular/http": "^6.1.0",
+    "@angular/language-service": "^6.1.0",
+    "@angular/platform-browser": "^6.1.0",
+    "@angular/platform-browser-dynamic": "^6.1.0",
+    "@angular/router": "^6.1.0",
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.3.0",
+    "core-js": "^2.5.4",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~3.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~1.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^4.1.0",
+    "protractor": "~5.4.0",
+    "rxjs": "~6.2.0",
+    "ts-node": "~7.0.0",
+    "tsickle": ">=0.29.0",
+    "tslib": "^1.9.0",
+    "tslint": "~5.11.0",
+    "typescript": "~2.9.2",
+    "zone.js": "~0.8.26"
+  },
+  "peerDependencies": {
+    "@angular/common": "5.x, 6.x, 7.x"
+  },
+  "main": "bundles/angular-archwizard.umd.js",
+  "module": "fesm5/angular-archwizard.js",
+  "es2015": "fesm2015/angular-archwizard.js",
+  "esm5": "esm5/angular-archwizard.js",
+  "esm2015": "esm2015/angular-archwizard.js",
+  "fesm5": "fesm5/angular-archwizard.js",
+  "fesm2015": "fesm2015/angular-archwizard.js",
+  "typings": "angular-archwizard.d.ts",
+  "metadata": "angular-archwizard.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
